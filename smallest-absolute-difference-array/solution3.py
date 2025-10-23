@@ -6,6 +6,7 @@ def solution(A):
         value=abs(split2-split1)
         if value<min_value:
             min_value=value
+            # add early exit
             if min_value == 0:  # can't do better
                 return 0
     return min_value
