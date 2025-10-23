@@ -1,0 +1,3 @@
+Compute the total parking cost based on entry and exit times, where the entrance fee is 2, the first hour costs 3, and each additional started hour costs 4. get enter and exit time from input in HH:MM format.
+
+Problem by Codility.
