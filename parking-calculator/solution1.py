@@ -4,12 +4,8 @@ def calculate_time_min(enter, left):
     hour_left=int(left[0:2])
     min_enter=int(enter[3:5])
     min_left=int(left[3:5])
-    
-    if hour_left>=hour_enter:
-        final_min=final_min+(hour_left-hour_enter)*60
-    else:
-        final_min=final_min+(hour_left-(hour_enter-12))*60
-        
+    final_min=final_min+(hour_left-hour_enter)*60
+
     if min_left>=min_enter:
         final_min=final_min+(min_left-min_enter)
     else:
